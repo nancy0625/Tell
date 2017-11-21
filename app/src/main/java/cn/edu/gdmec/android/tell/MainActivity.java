@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
                 EditText telnum = (EditText)findViewById(R.id.tel);
                 String telNum = telnum.getText().toString();
                 if (PhoneNumberUtils.isGlobalPhoneNumber(telNum)){
-                    Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse(//Uri.parse的方法返回的是一个URI类型，通过这个URI可以访问一个网络上或者是本地的资源
+                    Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse(//Uri.parse方法返回的是一个URI类型，通过这个URI可以访问一个网络上或者是本地的资源
                             //使用系统拨号盘
                             "tel://"+telNum
                     ));
