@@ -18,4 +18,19 @@
 
       />
 
+  <Button
+      android:id="@+id/btn_sms"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="发送"
+
+      />
+  <Button
+      android:id="@+id/btn_contact"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="新建联系人"
+
+      />
+
 </LinearLayout>
